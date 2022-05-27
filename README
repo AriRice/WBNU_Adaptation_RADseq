@@ -1,1 +1,15 @@
-.........................
+Here's a step-by-step list for how I ran things. 
+
+1. Downloaded, imported, and unzipped the raw fastq files into a 14_RADseq_data directory within my main nuthatch directory (alias: nuts). 
+
+2. Created the RenameRADSeq.txt file in the same directory and used it to rename the files. 
+
+3. Downloaded STACKS via conda and created a new STACKS environment. 
+
+4. Created the 15_STACKS directory. 
+
+5. Ran Process_RADTags.sh script from the 15_STACKS directory.
+
+6. Created a "trimmed" directory within 15_STACKS. 
+
+7. Ran 
