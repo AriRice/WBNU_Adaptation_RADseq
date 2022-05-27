@@ -12,4 +12,11 @@ Here's a step-by-step list for how I ran things.
 
 6. Created a "trimmed" directory within 15_STACKS. 
 
-7. Ran 
+7. Ran End_Trimming.sh within 15_STACKS.
+
+8. Created a "aligned" directory within 15_STACKS. 
+
+9. Ran Align_RAD_data.sh within 15_STACKS. 
+
+10. 
+
