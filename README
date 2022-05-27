@@ -3,6 +3,7 @@ Here's a step-by-step list for how I ran things.
 1. Downloaded, imported, and unzipped the raw fastq files into a 14_RADseq_data directory within my main nuthatch directory (alias: nuts). 
 
 2. Created the RenameRADSeq.txt file in the same directory and used it to rename the files. 
+2.5. Delete the Eastern and European nuthatch samples (outgroups). 
 
 3. Downloaded STACKS via conda and created a new STACKS environment. 
 
