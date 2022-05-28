@@ -41,7 +41,7 @@ singularity exec $SINGULARITY_CACHEDIR/gatk_4.2.3.0.sif gatk CleanSam -I ${workd
 rm ${workdir}/15_STACKS/aligned/${basename_array}.bam
 
 # sort the cleaned bam file
-singularity exec $SINGULARITY_CACHEDIR/gatk_4.2.3.0.sif gatk SortSam -I ${workdir}/15_STACKS/aligned/${basename_array}_cleaned.bam -O ${workdir}/15_STACKS/aligned/${basename_array}_cleaned_sorted.bam --Sam --SORT_ORDER coordinate
+singularity exec $SINGULARITY_CACHEDIR/gatk_4.2.3.0.sif gatk SortSam -I ${workdir}/15_STACKS/aligned/${basename_array}_cleaned.bam -O ${workdir}/15_STACKS/aligned/${basename_array}_cleaned_sorted.bam --SORT_ORDER coordinate
 
 # remove the cleaned bam file
 rm ${workdir}/15_STACKS/aligned/${basename_array}_cleaned.bam
